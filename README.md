@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+# React Registration Form with Validation
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, responsive registration form built with React featuring complete client-side validation, password visibility toggle, and a beautiful glassmorphism UI design.
 
-## Available Scripts
+![React](https://img.shields.io/badge/React-18.x-61DAFB?style=flat&logo=react)
+![CSS3](https://img.shields.io/badge/CSS3-Glassmorphism-1572B6?style=flat&logo=css3)
+![License](https://img.shields.io/badge/License-MIT-green.svg)
 
-In the project directory, you can run:
+## ✨ Features
 
-### `npm start`
+### 🎯 Core Features
+- ✅ **Client-side validation** for all form fields
+- ✅ **Real-time error feedback** with inline error messages
+- ✅ **Password visibility toggle** with SVG eye icons
+- ✅ **Submit button disabled** until all fields are valid
+- ✅ **Requirements checklist** with real-time updates
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 🎨 UI/UX Features
+- ✨ **Glassmorphism design** with backdrop blur effects
+- 🌈 **Beautiful gradient backgrounds** with brand colors
+- 📱 **Fully responsive** for all screen sizes
+- 🎭 **Smooth animations** and hover effects
+- ♿ **Accessibility ready** with ARIA attributes
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 🛡️ Security Features
+- 🔒 Password masking with show/hide toggle
+- ✅ Form validation before submission
+- 🚫 Prevent form submission when invalid
 
-### `npm test`
+## 🛠️ Tech Stack
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+| Technology | Purpose |
+|------------|---------|
+| **React 18** | UI framework with hooks (useState, useMemo) |
+| **CSS3** | Custom styling with glassmorphism |
+| **Git & GitHub** | Version control and repository hosting |
 
-### `npm run build`
+## 📋 Validation Rules
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+| Field | Validation Rules |
+|-------|------------------|
+| **Name** | • Required<br>• Minimum 2 characters<br>• Must start with a letter |
+| **Email** | • Required<br>• Must be a valid email format<br>• Ends with @gmail.com |
+| **Password** | • Required<br>• Minimum 8 characters<br>• At least 1 number<br>• At least 1 special character |
+| **Confirm Password** | • Required<br>• Must match the password field |
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🚀 Installation & Setup
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Prerequisites
+- Node.js (v14 or higher)
+- npm or yarn package manager
 
-### `npm run eject`
+### Steps to Run Locally
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+# 1. Clone the repository
+git clone https://github.com/sidraliaqat/form-validation-app.git
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# 2. Navigate to project directory
+cd form-validation-app
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+# 3. Install dependencies
+npm install
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+# 4. Start the development server
+npm start
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# 5. Open your browser and visit
+# http://localhost:3000
